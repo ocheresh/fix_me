@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Router" />
+        <module name="Broker" />
+        <module name="Core" />
+        <module name="Market" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Broker" target="7" />
+      <module name="Core" target="8" />
+      <module name="FlMe" target="1.5" />
+      <module name="Market" target="1.5" />
+      <module name="Router" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
